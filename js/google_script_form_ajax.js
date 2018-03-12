@@ -9,7 +9,7 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serializeObject(),
     success: function() {
-         window.location.href="/obg/takkfyrir.html"
+         window.location.href="takkfyrir"
       }
 });
   })
